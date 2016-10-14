@@ -9,14 +9,22 @@ and open the template in the editor.
 */
 
 body {
-    background-image: url('../img/fundo.PNG');
+    background-image: url('../img/fundo3.PNG');
     background-repeat: repeat;
     font-family: verdana;
 }
 #topo {
-    margin-top: -10px;
+    margin: -10px auto auto auto;
+    width: 60%;
 }
 #titulo {
     font-size: 14pt;
     color: green;
+    width: 20%;
+    text-align: center;
+}
+#buscar {
+    background-image: url('../img/fundoDiv.png');
+    background-position: 100% 100%;
+    width: 40%;
 }
