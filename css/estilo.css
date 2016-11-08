@@ -33,6 +33,7 @@ body {
     color: rgb(112,173,71);
     border-radius: 0pt;
     background-color: white;
+    border: 0px;
 }
 #buscarCampo {
     width: 90%;
@@ -44,7 +45,8 @@ body {
     background-image:url(../img/buscar.png);
     background-size: 20px;
     background-position: center left;
-    background-repeat:no-repeat;                     
+    background-repeat:no-repeat;      
+    border: 0px;
 }
 #login {
     background-color: rgb(112,173,71);
