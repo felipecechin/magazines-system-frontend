@@ -15,18 +15,9 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/estilo.css">
     </head>
     <body>
-        <div id="topo">
-            <table> 
-                <tr> 
-                    <td>
-            <div id="titulo">
-                LOJA ONLINE  <br>
-                DE REVISTAS
-            </div>
-            <div id="buscar">
-                GGAGAGAEGAE
-            </div>
-        </div>
+        <?php
+        require_once './divTopo.php';
+        ?>
         <table>
             <tr>
                 <td>
