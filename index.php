@@ -20,13 +20,15 @@ and open the template in the editor.
             require_once './divTopo.php';
             ?>
             <tr> 
-                <td>
+                <td style="vertical-align: top;">
                     <?php
                     require_once './menu.php';
                     ?>
                 </td>
                 <td colspan="2">
-                    
+                    <div style="border: 1px solid rgb(112,173,71); height: 200px;">
+                        
+                    </div>
                 </td>
             </tr>
         </table>

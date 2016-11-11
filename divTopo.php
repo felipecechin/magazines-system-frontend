@@ -10,8 +10,8 @@
         </table>
     </td>
     <td width="40%" align="center">
-        <form action="buscarDao.php" method="post">
-            <table align="center" width="100%" id="buscar">  
+        <form action="buscarDao.php" method="post" width="100%">
+            <table align="center" id="buscar">  
                 <tr> 
                     <td> 
                         <input type="text" placeholder="Busque aqui pelo nome da revista" name="b" id="buscarCampo">
