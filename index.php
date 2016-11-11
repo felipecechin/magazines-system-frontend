@@ -25,11 +25,8 @@ and open the template in the editor.
                     require_once './menu.php';
                     ?>
                 </td>
-                <td>
-
-                </td>
-                <td>
-
+                <td colspan="2">
+                    
                 </td>
             </tr>
         </table>
