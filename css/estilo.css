@@ -12,21 +12,20 @@ body {
     background-image: url('../img/fundo3.PNG');
     background-repeat: repeat;
     font-family: verdana;
-}
-#topo {
-    margin: -10px auto auto auto;
-    width: 50%;
+    margin: 0px;
 }
 #titulo {
     font-size: 20pt;
     color: rgb(112,173,71);
-    width: 100%;
+    width: 207px;
     text-align: left;
 }
 #buscar {
     background-color: rgb(112,173,71);
     margin: auto;
-    width: 90%;
+    width: 358px;
+    height: 63px;
+    text-align: center;
 }
 #buscarBotao {
     font-size: 14pt;
@@ -37,7 +36,6 @@ body {
 }
 #buscarCampo {
     width: 90%;
-    margin: auto;
     height: 20px;
     padding-left:23px;     
     padding-top:1.5px;       
@@ -50,13 +48,45 @@ body {
 }
 #login {
     background-color: rgb(112,173,71);
-    width: 95%;
+    width: 314px;
+    height: 63px;
     color: white;
     font-size: 14pt;
+    height: 100%;
+    text-align: center;
 }
 #imgCarrinho {
     width: 30px;
 }
 #imgLogin {
     width: 29px;
+}
+#loginBotao {
+    cursor: pointer;
+}
+#conteudo {
+    width: 50%;
+    margin: -8px auto auto auto;
+}
+#menu {
+    width: 100%;
+    font-size: 13pt;
+}
+.menuBotao {
+    margin-right: 5px;
+    width: 230px;
+    border-radius: 1em;
+    background-color: rgb(112,173,71);
+    border: 0px;
+}
+.menuImagem {
+    margin-left: 5px;
+     width: 21px;
+}
+.menuA { 
+    text-decoration: none;
+    color: white;
+}
+.menuCelula {
+    vertical-align: top;
 }

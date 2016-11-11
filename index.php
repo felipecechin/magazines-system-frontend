@@ -15,18 +15,21 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/estilo.css">
     </head>
     <body>
-        <?php
-        require_once './divTopo.php';
-        ?>
-        <table>
-            <tr>
+        <table id="conteudo">
+            <?php
+            require_once './divTopo.php';
+            ?>
+            <tr> 
                 <td>
-                    <div></div>
+                    <?php
+                    require_once './menu.php';
+                    ?>
                 </td>
-            </tr>
-            <tr>
                 <td>
-                    <div></div>
+
+                </td>
+                <td>
+
                 </td>
             </tr>
         </table>
