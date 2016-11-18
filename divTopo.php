@@ -32,7 +32,7 @@
                     <img src="img/carrinho.png" id="imgCarrinho">
                 </td>
                 <td style="border-bottom: 1px solid white; border-right: 1px solid white;">
-                    <div id="loginBotao">
+                    <div class="loginBotao">
                         <table align="center">
                             <tr>
                                 <td>
@@ -45,7 +45,7 @@
                         </table>
                     </div>
                 </td>
-                <td width="45%" style="border-bottom: 1px solid white;">
+                <td width="45%" id="loginCadastrar">
                     CADASTRE-SE
                 </td>
             </tr>

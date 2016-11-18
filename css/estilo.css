@@ -61,8 +61,10 @@ body {
 #imgLogin {
     width: 29px;
 }
-#loginBotao {
+.loginBotao {
     cursor: pointer;
+    height: 100%;
+    margin: auto;
 }
 #conteudo {
     width: 50%;
@@ -81,7 +83,7 @@ body {
 }
 .menuImagem {
     margin-left: 5px;
-     width: 21px;
+    width: 21px;
 }
 .menuA { 
     text-decoration: none;
@@ -89,4 +91,29 @@ body {
 }
 .menuCelula {
     vertical-align: top;
+}
+#loginCadastrar {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+#rodape {
+    background: rgb(112,173,71);
+    height: 26px;
+    font-size: 13pt;
+    color: white;
+}
+.rodapeImg {
+    width: 20px;
+    margin: auto;
+}
+#rodape a {
+    text-decoration: none;
+    color: white;
+}
+.carrinhoAd {
+    width: 29px;
+}
+.revista {
+    width: 150px;
+    height: 220px;
 }
