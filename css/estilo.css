@@ -114,6 +114,38 @@ body {
     width: 29px;
 }
 .revista {
-    width: 150px;
-    height: 220px;
+    width: 160px;
+    height: 250px;
+}
+#conteudoCont {
+    border: 1px solid rgb(112,173,71); 
+    height: 825px; 
+    width: 100%; 
+    color: white;
+}
+#conteudoTitulo {
+    background-color: rgb(112,173,71); 
+    margin: -6px 0px 0px -2px; 
+    display: table;
+    padding-right: 5px; 
+    padding-left: 5px;
+}
+.nomeCategoria {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.tdInfo {
+    vertical-align: top;
+}
+.tdCarrinho {
+    background: rgb(112,173,71); 
+    height: 30px;
+    cursor: pointer;
+}
+.tdInfo2 {
+    vertical-align: middle;
+}
+.revistaInfo {
+    height: 250px;
 }

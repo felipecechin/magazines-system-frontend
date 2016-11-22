@@ -26,22 +26,22 @@ and open the template in the editor.
                     ?>
                 </td>
                 <td colspan="2">
-                    <table style="border: 1px solid rgb(112,173,71); min-height: 400px; width: 100%; color: white;" cellspacing="0">
+                    <table id="conteudoCont" cellspacing="0">
                         <tr>
                             <td style="height: 25px;">
-                                <div  style="background-color: rgb(112,173,71); margin: -6px 0px 0px -2px; display: table;padding-right: 5px; padding-left: 5px;">
+                                <div  id="conteudoTitulo">
                                     MAIS POPULARES
                                 </div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <table align="center" style="width: 85%;color: rgb(112,173,71);">
-                                    <tr>
+                                <table align="center" style="width: 85%;color: rgb(112,173,71);height: 100%;">
+                                    <tr class="tdInfo2">
                                         <td>
                                             <table align="left">
                                                 <tr>
-                                                    <td style="text-align: center;">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -50,16 +50,16 @@ and open the template in the editor.
                                                                 <td>
                                                                     <img src="img/revista.png" class="revista">
                                                                 </td>
-                                                                <td style="vertical-align: top;">
-                                                                    <table style="height: 220px;">
-                                                                        <tr style="vertical-align: top;">
+                                                                <td class="tdInfo">
+                                                                    <table class="revistaInfo">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [NOME]
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 
-                                                                        <tr style="vertical-align: top;"> 
+                                                                        <tr class="tdInfo"> 
                                                                             <td>
                                                                                 [EDITORA]
                                                                             </td>
@@ -67,7 +67,7 @@ and open the template in the editor.
                                                                         <tr style="height: 100px;"> 
                                                                             <td></td>
                                                                         </tr>
-                                                                        <tr style="vertical-align: top;">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [PREÇO]
@@ -75,7 +75,7 @@ and open the template in the editor.
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td style="background: rgb(112,173,71); height: 30px;cursor: pointer;" align="center">
+                                                                            <td class="tdCarrinho" align="center">
                                                                                 <img src="img/carrinhoAd.png" class="carrinhoAd">
                                                                             </td>
                                                                         </tr>
@@ -90,7 +90,7 @@ and open the template in the editor.
                                         <td>
                                             <table align="right">
                                                 <tr>
-                                                    <td style="text-align: center;">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -99,16 +99,16 @@ and open the template in the editor.
                                                                 <td>
                                                                     <img src="img/revista.png" class="revista">
                                                                 </td>
-                                                                <td style="vertical-align: top;">
-                                                                    <table style="height: 220px;">
-                                                                        <tr style="vertical-align: top;">
+                                                                <td class="tdInfo">
+                                                                    <table class="revistaInfo">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [NOME]
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 
-                                                                        <tr style="vertical-align: top;"> 
+                                                                        <tr class="tdInfo"> 
                                                                             <td>
                                                                                 [EDITORA]
                                                                             </td>
@@ -116,7 +116,7 @@ and open the template in the editor.
                                                                         <tr style="height: 100px;"> 
                                                                             <td></td>
                                                                         </tr>
-                                                                        <tr style="vertical-align: top;">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [PREÇO]
@@ -124,7 +124,7 @@ and open the template in the editor.
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td style="background: rgb(112,173,71); height: 30px;cursor: pointer;" align="center">
+                                                                            <td class="tdCarrinho" align="center">
                                                                                 <img src="img/carrinhoAd.png" class="carrinhoAd">
                                                                             </td>
                                                                         </tr>
@@ -137,11 +137,11 @@ and open the template in the editor.
                                             </table>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="tdInfo2">
                                         <td>
-                                            <table align="left" style="padding-top: 30px;">
+                                            <table align="left">
                                                 <tr>
-                                                    <td style="text-align: center;">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -150,16 +150,16 @@ and open the template in the editor.
                                                                 <td>
                                                                     <img src="img/revista.png" class="revista">
                                                                 </td>
-                                                                <td style="vertical-align: top;">
-                                                                    <table style="height: 220px;">
-                                                                        <tr style="vertical-align: top;">
+                                                                <td class="tdInfo">
+                                                                    <table class="revistaInfo">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [NOME]
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 
-                                                                        <tr style="vertical-align: top;"> 
+                                                                        <tr class="tdInfo"> 
                                                                             <td>
                                                                                 [EDITORA]
                                                                             </td>
@@ -167,7 +167,7 @@ and open the template in the editor.
                                                                         <tr style="height: 100px;"> 
                                                                             <td></td>
                                                                         </tr>
-                                                                        <tr style="vertical-align: top;">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [PREÇO]
@@ -175,7 +175,7 @@ and open the template in the editor.
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td style="background: rgb(112,173,71); height: 30px;cursor: pointer;" align="center">
+                                                                            <td class="tdCarrinho" align="center">
                                                                                 <img src="img/carrinhoAd.png" class="carrinhoAd">
                                                                             </td>
                                                                         </tr>
@@ -188,9 +188,9 @@ and open the template in the editor.
                                             </table>
                                         </td>
                                         <td>
-                                            <table align="right" style="padding-top: 30px;">
+                                            <table align="right">
                                                 <tr>
-                                                    <td style="text-align: center;">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -199,16 +199,16 @@ and open the template in the editor.
                                                                 <td>
                                                                     <img src="img/revista.png" class="revista">
                                                                 </td>
-                                                                <td style="vertical-align: top;">
-                                                                    <table style="height: 220px;">
-                                                                        <tr style="vertical-align: top;">
+                                                                <td class="tdInfo">
+                                                                    <table class="revistaInfo">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [NOME]
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 
-                                                                        <tr style="vertical-align: top;"> 
+                                                                        <tr class="tdInfo"> 
                                                                             <td>
                                                                                 [EDITORA]
                                                                             </td>
@@ -216,7 +216,7 @@ and open the template in the editor.
                                                                         <tr style="height: 100px;"> 
                                                                             <td></td>
                                                                         </tr>
-                                                                        <tr style="vertical-align: top;">
+                                                                        <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
                                                                                     [PREÇO]
@@ -224,7 +224,7 @@ and open the template in the editor.
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td style="background: rgb(112,173,71); height: 30px;cursor: pointer;" align="center">
+                                                                            <td class="tdCarrinho" align="center">
                                                                                 <img src="img/carrinhoAd.png" class="carrinhoAd">
                                                                             </td>
                                                                         </tr>
@@ -245,6 +245,7 @@ and open the template in the editor.
             </tr>
             <tr>
                 <td colspan="3">
+                    
                     <?php
                     require_once './rodape.php';
                     ?>
