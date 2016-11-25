@@ -1,7 +1,7 @@
 <table width="100%" id="rodape" cellspacing="0">
     <tr>
         <td style="border-right: 1px solid white; vertical-align: middle;" width="33%">
-            <a href="#">
+            <a href="suporteEContato.php">
                 <table align="center">
                     <tr> 
                         <td> 
@@ -15,7 +15,7 @@
             </a>
         </td>
         <td style="border-right: 1px solid white;" width="33%">
-            <a href="#">
+            <a href="formasDePagamento.php">
                 <table align="center">
                     <tr> 
                         <td> 
@@ -29,7 +29,7 @@
             </a>
         </td>
         <td width="33%">
-            <a href="#">
+            <a href="sobreALoja.php">
                 <table align="center">
                     <tr> 
                         <td> 

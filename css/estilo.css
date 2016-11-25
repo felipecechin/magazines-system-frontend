@@ -33,6 +33,7 @@ body {
     border-radius: 0pt;
     background-color: white;
     border: 0px;
+    cursor: pointer;
 }
 #buscarCampo {
     width: 90%;
@@ -55,13 +56,17 @@ body {
     height: 100%;
     text-align: center;
 }
+#login a {
+    text-decoration: none;
+    color: white;
+}
 #imgCarrinho {
     width: 30px;
 }
 #imgLogin {
     width: 29px;
 }
-.loginBotao {
+#loginBotao {
     cursor: pointer;
     height: 100%;
     margin: auto;
@@ -93,8 +98,13 @@ body {
     vertical-align: top;
 }
 #loginCadastrar {
-    cursor: pointer;
     border-bottom: 1px solid white;
+}
+#loginCadastrar a div {
+    width: 141px;
+    height: 40px;
+    vertical-align: middle;
+    display: table-cell;
 }
 #rodape {
     background: rgb(112,173,71);
@@ -127,9 +137,30 @@ body {
     width: 100%; 
     color: white;
 }
+#caixaForm {
+    border: 1px solid rgb(112,173,71); 
+    border-radius: 20pt;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    width: 350px;
+    padding: 50px 75px 50px 75px;
+}
+#caixaForm .texto {
+    width: 200px;
+}
+#caixaFormBotao {
+    font-size: 14pt;
+    background-color: rgb(112,173,71);
+    border-radius: 0pt;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    width: 100px;
+}
 #conteudoTitulo {
     background-color: rgb(112,173,71); 
-    margin: -6px 0px 0px -2px; 
+    margin: -6px 0px 0px 0px; 
     display: table;
     padding-right: 5px; 
     padding-left: 5px;
@@ -156,7 +187,7 @@ body {
     height: 250px;
 }
 .revistaInfo2 {
-    height: 250px;
+    height: 320px;
 }
 .maisInfo {
     border: 1px solid rgb(112,173,71); 
@@ -176,4 +207,35 @@ body {
     color: rgb(112,173,71);
     margin-top: -90px;
     margin-left: 30px;
+}
+#subMenu {
+    border: 1px dotted rgb(112,173,71); 
+    margin-top: -1px; 
+    width: 85%; 
+    color: rgb(112,173,71); 
+    text-align: center;
+    display: none;
+}
+.subMenuBottom {
+    border-bottom: 1px dotted rgb(112,173,71);
+    height: 30px;
+    cursor: pointer;
+}
+.subMenuBottom a {
+    text-decoration: none;
+    color: rgb(112,173,71); 
+}
+.subMenuBottom a div {
+    width: 200px;
+    height: 31px;
+    vertical-align: middle;
+    display: table-cell;
+}
+#menuCategoria:hover #subMenu{
+    display: table;
+}
+#DescricaoMenuInferior {
+    color: rgb(112,173,71);
+    margin-top: -370px;
+    margin-left: 60px;
 }

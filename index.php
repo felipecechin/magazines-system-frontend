@@ -13,6 +13,7 @@ and open the template in the editor.
         <meta name="keywords" content="Revistas, compras, Leitura, Ler">
         <meta name="description" content="Site para venda de revistas">
         <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/jquery-3.1.1.min.js"></script>
     </head>
     <body>
         <table id="conteudo">
@@ -26,7 +27,7 @@ and open the template in the editor.
                     ?>
                 </td>
                 <td colspan="2">
-                    <table id="conteudoCont" cellspacing="0">
+                    <table id="conteudoCont" cellspacing="0" cellpadding="0">
                         <tr>
                             <td style="height: 25px;">
                                 <div  id="conteudoTitulo">
@@ -245,7 +246,6 @@ and open the template in the editor.
             </tr>
             <tr>
                 <td colspan="3">
-                    
                     <?php
                     require_once './rodape.php';
                     ?>

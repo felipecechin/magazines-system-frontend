@@ -1,7 +1,7 @@
 <table id="menu">
     <tr>
         <td>
-            <a href="#" class="menuA">
+            <a href="index.php" class="menuA">
                 <table class="menuBotao">
                     <tr>
                         <td width="13%">
@@ -32,7 +32,7 @@
         </td>
     </tr>
     <tr>
-        <td>
+        <td id="menuCategoria">
             <a href="#" class="menuA">
                 <table class="menuBotao">
                     <tr>
@@ -45,8 +45,45 @@
                     </tr>
                 </table>
             </a>
+            <table id="subMenu" align="center" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="subMenuBottom">
+                        <a href="#"> 
+                            <div>
+                                CIÊNCIA
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subMenuBottom">
+                         <a href="##"> 
+                            <div>
+                                INFANTIL
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subMenuBottom">
+                         <a href="###"> 
+                            <div>
+                                MODA E BELEZA
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subMenuBottom">
+                         <a href="####"> 
+                            <div>
+                                NOTÍCIAS
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
         </td>
     </tr>
-
 </table>
 

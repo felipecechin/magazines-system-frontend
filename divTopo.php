@@ -32,21 +32,27 @@
                     <img src="img/carrinho.png" id="imgCarrinho">
                 </td>
                 <td style="border-bottom: 1px solid white; border-right: 1px solid white;">
-                    <div class="loginBotao">
-                        <table align="center">
-                            <tr>
-                                <td>
-                                    <img src="img/login.png" id="imgLogin">
-                                </td>
-                                <td>
-                                    LOGIN
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+                    <a href="login.php">
+                        <div id="loginBotao">
+                            <table align="center">
+                                <tr>
+                                    <td>
+                                        <img src="img/login.png" id="imgLogin">
+                                    </td>
+                                    <td>
+                                        LOGIN
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </a>
                 </td>
                 <td width="45%" id="loginCadastrar">
-                    CADASTRE-SE
+                    <a href="cadastro.php">
+                        <div>
+                            CADASTRE-SE
+                        </div>
+                    </a>
                 </td>
             </tr>
             <tr>
