@@ -28,8 +28,12 @@
     <td width="35%" align="right">
         <table id="login" cellspacing="0" cellpadding="0">  
             <tr> 
-                <td style="border-bottom: 1px solid white; border-right: 1px solid white;"> 
-                    <img src="img/carrinho.png" id="imgCarrinho">
+                <td style="border-bottom: 1px solid white; border-right: 1px solid white;">
+                    <a href="finalizaCompra.php">
+                        <div width="100%" height="100%">
+                            <img src="img/carrinho.png" id="imgCarrinho">
+                        </div>
+                    </a>
                 </td>
                 <td style="border-bottom: 1px solid white; border-right: 1px solid white;">
                     <a href="login.php">

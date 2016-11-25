@@ -42,21 +42,28 @@ and open the template in the editor.
                                         <td>
                                             <table align="left">
                                                 <tr>
-                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria"><a href="categoria.php">
+                                                            [NOME DA CATEGORIA]
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
                                                         <table>
                                                             <tr>
                                                                 <td>
-                                                                    <img src="img/revista.png" class="revista">
+                                                                    <a href="revista.php">
+                                                                        <img src="img/revista.png" class="revista">
+                                                                    </a>
                                                                 </td>
                                                                 <td class="tdInfo">
                                                                     <table class="revistaInfo">
                                                                         <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
-                                                                                    [NOME]
+                                                                                    <a href="revista.php">
+                                                                                        [NOME]
+                                                                                    </a>
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 
@@ -91,21 +98,28 @@ and open the template in the editor.
                                         <td>
                                             <table align="right">
                                                 <tr>
-                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria"><a href="categoria.php">
+                                                            [NOME DA CATEGORIA]
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
                                                         <table>
                                                             <tr>
                                                                 <td>
-                                                                    <img src="img/revista.png" class="revista">
+                                                                    <a href="revista.php">
+                                                                        <img src="img/revista.png" class="revista">
+                                                                    </a>
                                                                 </td>
                                                                 <td class="tdInfo">
                                                                     <table class="revistaInfo">
                                                                         <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
-                                                                                    [NOME]
+                                                                                    <a href="revista.php">
+                                                                                        [NOME]
+                                                                                    </a>
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 
@@ -142,21 +156,29 @@ and open the template in the editor.
                                         <td>
                                             <table align="left">
                                                 <tr>
-                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria">
+                                                        <a href="categoria.php">
+                                                            [NOME DA CATEGORIA]
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
                                                         <table>
                                                             <tr>
                                                                 <td>
-                                                                    <img src="img/revista.png" class="revista">
+                                                                    <a href="revista.php">
+                                                                        <img src="img/revista.png" class="revista">
+                                                                    </a>
                                                                 </td>
                                                                 <td class="tdInfo">
                                                                     <table class="revistaInfo">
                                                                         <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
-                                                                                    [NOME]
+                                                                                    <a href="revista.php">
+                                                                                        [NOME]
+                                                                                    </a>
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 
@@ -191,21 +213,28 @@ and open the template in the editor.
                                         <td>
                                             <table align="right">
                                                 <tr>
-                                                    <td class="nomeCategoria">[NOME DA CATEGORIA]</td>
+                                                    <td class="nomeCategoria"><a href="categoria.php">
+                                                            [NOME DA CATEGORIA]
+                                                        </a>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
                                                         <table>
                                                             <tr>
                                                                 <td>
-                                                                    <img src="img/revista.png" class="revista">
+                                                                    <a href="revista.php">
+                                                                        <img src="img/revista.png" class="revista">
+                                                                    </a>
                                                                 </td>
                                                                 <td class="tdInfo">
                                                                     <table class="revistaInfo">
                                                                         <tr class="tdInfo">
                                                                             <td>
                                                                                 <b>
-                                                                                    [NOME]
+                                                                                    <a href="revista.php">
+                                                                                        [NOME]
+                                                                                    </a>
                                                                                 </b>
                                                                             </td>
                                                                         </tr> 

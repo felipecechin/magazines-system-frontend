@@ -51,7 +51,7 @@ and open the template in the editor.
                                         </tr>
                                         <tr>
                                             <td align="right">
-                                                <input type="submit" value="Cadastrar" id="caixaFormBotao">
+                                                <input type="submit" value="Entrar" id="caixaFormBotao">
                                             </td>
                                         </tr>
                                     </table>

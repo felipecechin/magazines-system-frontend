@@ -17,7 +17,7 @@
     </tr>
     <tr>
         <td>
-            <a href="#" class="menuA">
+            <a href="todasAsRevistas.php" class="menuA">
                 <table class="menuBotao">
                     <tr>
                         <td width="13%">
@@ -48,7 +48,7 @@
             <table id="subMenu" align="center" cellspacing="0" cellpadding="0">
                 <tr>
                     <td class="subMenuBottom">
-                        <a href="#"> 
+                        <a href="categoria.php"> 
                             <div>
                                 CIÊNCIA
                             </div>
@@ -57,7 +57,7 @@
                 </tr>
                 <tr>
                     <td class="subMenuBottom">
-                         <a href="##"> 
+                        <a href="categoria.php"> 
                             <div>
                                 INFANTIL
                             </div>
@@ -66,7 +66,7 @@
                 </tr>
                 <tr>
                     <td class="subMenuBottom">
-                         <a href="###"> 
+                        <a href="categoria.php"> 
                             <div>
                                 MODA E BELEZA
                             </div>
@@ -75,7 +75,7 @@
                 </tr>
                 <tr>
                     <td class="subMenuBottom">
-                         <a href="####"> 
+                        <a href="categoria.php"> 
                             <div>
                                 NOTÍCIAS
                             </div>

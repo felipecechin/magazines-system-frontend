@@ -172,16 +172,21 @@ body {
 }
 #conteudoTitulo {
     background-color: rgb(112,173,71); 
-    margin: -6px 0px 0px 0px; 
+    margin: -2px 0px 0px 0px; 
     display: table;
     padding-right: 5px; 
     padding-left: 5px;
     padding-bottom: 2px;
+    font-size: 14pt;
 }
 .nomeCategoria {
     text-align: center;
     font-size: 14pt;
     font-weight: bold;
+}
+.nomeCategoria a {
+    text-decoration: none;
+    color: rgb(112,173,71);
 }
 .tdInfo {
     vertical-align: top;
@@ -193,7 +198,14 @@ body {
 }
 .tdInfo2 {
     vertical-align: middle;
-    overflow: auto;
+}
+.tdInfo2 a {
+    text-decoration: none;
+    color: rgb(112,173,71);
+}
+
+.tdRevistas {
+    vertical-align: middle;
 }
 .revistaInfo {
     height: 250px;
@@ -217,8 +229,9 @@ body {
 }
 .maisInfoDescricao {
     color: rgb(112,173,71);
-    margin-top: -90px;
     margin-left: 30px;
+    overflow: auto;
+    height: 180px;
 }
 #subMenu {
     border: 1px dotted rgb(112,173,71); 
@@ -250,4 +263,31 @@ body {
     color: rgb(112,173,71);
     margin-top: -370px;
     margin-left: 60px;
+}
+.compraTabela {
+    border: 1px solid rgb(112,173,71); 
+    border-radius: 20pt;
+    margin: auto;
+    text-align: center;
+    width: 330px;
+    padding: 0px 20px 10px 20px;
+    color: rgb(112,173,71);
+    height: 350px;
+}
+.compraTabela .texto {
+    width: 170px;
+}
+#finalizarCompraBotao {
+    font-size: 14pt;
+    background-color: rgb(112,173,71);
+    border-radius: 0pt;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.carrinhoNome {
+    text-align: left;
+}
+.carrinhoPreco {
+    text-align: right;
 }
