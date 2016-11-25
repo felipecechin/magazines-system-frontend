@@ -137,7 +137,7 @@ body {
     width: 100%; 
     color: white;
 }
-#caixaForm {
+#caixaFormCadastro {
     border: 1px solid rgb(112,173,71); 
     border-radius: 20pt;
     margin: auto;
@@ -146,7 +146,19 @@ body {
     width: 350px;
     padding: 50px 75px 50px 75px;
 }
-#caixaForm .texto {
+#caixaFormCadastro .texto {
+    width: 200px;
+}
+#caixaFormLogin {
+    border: 1px solid rgb(112,173,71); 
+    border-radius: 20pt;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    padding: 50px 75px 50px 75px;
+}
+#caixaFormLogin .texto {
     width: 200px;
 }
 #caixaFormBotao {

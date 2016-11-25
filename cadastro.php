@@ -44,7 +44,7 @@ and open the template in the editor.
                         <tr>
                             <td>
                                 <form action="index.php" method="post">
-                                    <table id="caixaForm">
+                                    <table id="caixaFormCadastro">
                                         <tr>
                                             <td>
                                                 <input type="text" placeholder="Nome completo" name="nome" class="texto" id="texto1" required=""> 
